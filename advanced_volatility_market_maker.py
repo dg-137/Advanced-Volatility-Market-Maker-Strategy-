@@ -13,17 +13,7 @@ from hummingbot.data_feed.candles_feed.candles_factory import CandlesFactory, Ca
 from hummingbot.connector.connector_base import ConnectorBase
 
 class AdvancedVolatilityMarketMaker(ScriptStrategyBase):
-    """
-    Advanced Market Making Strategy with Volatility-Based Spreads, VWAP Trend Analysis, 
-    and Dynamic Inventory Management
-
-    Key Features:
-    1. Volatility-based spread adjustment using NATR
-    2. VWAP Bollinger Bands for trend identification
-    3. Dynamic inventory management with target ratio
-    4. Momentum-based price shifts using RSI
-    5. Risk-adjusted order sizing with ATR
-    """
+   
 
     # Basic strategy parameters
     base_bid_spread = 0.0005
